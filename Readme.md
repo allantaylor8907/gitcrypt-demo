@@ -2,6 +2,7 @@
 You will need to brew-install git-crypt
 possibly brew install gpg
 
+In this demo `helm/testapp1` and `kustomize/testapp2` values are encrypted while the others are not - you can verify this by trying to see the files locally or in the web browswer
 You can find the encrpytion key in 1pass
 Create a file that contains that key locally 
 To see the contents of the file locally run
